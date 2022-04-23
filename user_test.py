@@ -1,5 +1,5 @@
 import unittest
-from user import user
+from user import User
 
 class Testuser(unittest.TestCase):
     '''
@@ -8,6 +8,12 @@ class Testuser(unittest.TestCase):
     Args:
     unittest.TestCase:TestCase class that helps in creating test cases 
     '''
+def setUp(self):
+    '''
+    Set up method to run before each test cases
+    '''
+
+
 def test_init(self):
     '''
     this is to test if the object is initialized properly
