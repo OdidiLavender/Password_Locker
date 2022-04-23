@@ -9,13 +9,13 @@ def __init__ (self,Username,Password):
 
 def save_user(self):
     '''
-    save user saves the new user to the userlist
+    save user method saves the new user to the userlist
     '''
     User.userlist.append(self)
 
 def delete_user(self):
     '''
-    deletes user from the userlist
+    deletes user method from the userlist
     '''
     User.userlist.remove(self)
 
