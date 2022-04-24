@@ -12,4 +12,5 @@ def delete_user(user):
     user.delete_user()
 def find_user(number):
     return User.find_by_number(number)
-
+def display_user():
+    return User.display_user()
