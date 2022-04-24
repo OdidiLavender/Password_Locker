@@ -10,3 +10,6 @@ def save_user(user):
     user.save_user()
 def delete_user(user):
     user.delete_user()
+def find_user(number):
+    return User.find_by_number(number)
+
