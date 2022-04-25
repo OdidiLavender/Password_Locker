@@ -11,6 +11,9 @@ This program utilizes two classes : the user and Credential
 The program authenticates accounts to see their credentials.
 Contains a test for the classes
 Program save data.
+### Project  github link
+https://github.com/OdidiLavender/Password_Locker.git
+
 
 ## Setup
 To access the project on your local files, you can clone it using these steps
